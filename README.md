@@ -33,7 +33,7 @@ WHEN the game is over
 
 THEN I can save my initials and score
 
-## Screenshot
+## Screenshots
 <img width="1440" alt="Screen Shot 2022-07-07 at 5 34 47 PM" src="https://user-images.githubusercontent.com/32420245/177882772-743caa8f-0e8a-4db9-aaeb-896c9b564269.png">
 <img width="1434" alt="Screen Shot 2022-07-07 at 5 34 53 PM" src="https://user-images.githubusercontent.com/32420245/177882781-bebbf546-66e7-4b60-80f0-10679525e51e.png">
 <img width="1440" alt="Screen Shot 2022-07-07 at 5 35 06 PM" src="https://user-images.githubusercontent.com/32420245/177882801-6161587a-7bba-4b77-b62e-d347162adf1c.png">
