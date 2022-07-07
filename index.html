@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link type='text/css' rel='stylesheet' href='style.css' />
+</head>
+<body>
+
+    <!-- Nav bar containing View high scores and countdown timer -->
+    <div class="navBar">
+        <!-- When clicking view high scores it takes you to the high score sheet based on the viewScores() function in javascript -->
+        <a href="#" onclick = 'viewScores()' class="highScore">View high scores</a>
+        <div class="countdown">
+        <!-- Countdown timer starting at 75 seconds -->
+            <div id="timer">Time: 75</div>
+        </div>
+    </div>
+
+    <!-- Div containing the information about the quiz and the start button -->
+    <div id="quizInfo">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Try to answer the following code-related questions within the time limit.
+            <br>
+            Keep in mind that incorrect answers will penalize your score/time 
+            <br>
+            by ten seconds!</p> 
+            <!-- Start button -->
+            <button type="button" id="start">Start Quiz</button>
+    </div>
+
+    <!-- Div containing the final score, and a form for entering initials -->
+    <!-- Hidden class used so it only shows when that class is removed -->
+    <div id="finishedQuiz" class="hidden">
+        <h1 class="done">All Done!</h1>
+        <p class="finalScore"></p>
+        <form class="name">
+            <label for="initial">Enter initials:</label>
+            <!-- When clicking on the submission box it clears the bar and the correct/wrong info based on the clearEl() function in javascript -->
+            <input id="initial" onClick = clearEl()>
+            <!-- Submit button -->
+            <button type="button" id="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Div containing the high scores also hidden until class is changed -->
+    <div id="highScores" class="hidden">
+        <h1 class="list">High scores</h1>
+        <ol id="scores"></ol>
+        <!-- Back button -->
+        <button type="button" id="back">Go back</button>
+        <!-- Clear button -->
+        <button type="button" id="clear">Clear high scores</button>
+    </div>
+
+    <!-- Div containing the questions and the options also hidden until class is changed -->
+    <div id="questions">
+        <div id="question" class="hidden"></div>
+        <div id="answer" class="hidden"></div>
+    </div>
+
+    <!-- Horizontal bar that only displays upon clicking an answer -->
+    <hr id="bar" class="hidden">
+    <!-- Correct only displays when clicking the correct answer -->
+    <p id="correct" class="hidden">Correct!</p>
+    <!-- Wrong only displays when clicking the wrong answer -->
+    <p id="wrong" class="hidden">Wrong!</p>
+    <script type='text/javascript' src='script.js'></script>
+</body>
+</html>
