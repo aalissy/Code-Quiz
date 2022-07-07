@@ -131,7 +131,7 @@ function newQuestions(codeQuiz) {
 
 /* getNewQuestion() function */
 function getNewQuestion() {
-    /* gets the next question after the first one is answered */
+    /* gets the next question after the previous one is answered */
     newQuestions(questions[newQuestion]);
     newQuestion++;
 }
