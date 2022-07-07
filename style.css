@@ -1,0 +1,190 @@
+ /* * selects every element */
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+
+ /* selects timer */ 
+#timer {
+    float: right;
+    padding-top: -20px;
+}
+
+/* selects the view high score */
+.highScore {
+    float: left;
+    padding-top: -20px;
+    color: mediumorchid;
+    text-decoration: none;
+}
+
+/* header for the quiz info */
+#quizInfo h1 {
+    padding-top: 100px;
+    padding-left: 450px;
+    font-size: 50px;
+}
+
+/* paragraph for the quiz info */
+#quizInfo p {
+    padding-top: -1px;
+    padding-left: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* start button */
+#start {
+    color: white;
+    background-color: Indigo;
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    position: absolute;
+    right: 640px;
+    border: none;
+}
+
+/* start button when hovering over it */
+#start:hover {
+    background-color: violet;
+    cursor: pointer;
+    border: none;
+}
+
+/* everything with class hidden is not displayed */
+.hidden {
+    display: none;
+}
+
+/* options buttons */
+.button {
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 300px;
+    border: none;
+}
+
+/* options buttons on hover */
+.button:hover {
+    background-color: violet;
+    cursor: pointer;
+    border: none;
+}
+
+/* questions displayed */
+#question {
+    padding: 50px 50px 10px 100px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+/* correct display when getting an answer correct */
+#correct {
+    font-style: italic;
+    margin-left: 60px;
+    color: gray;
+    font-size: 30px;
+}
+
+/* wrong display when getting an answer wrong */
+#wrong {
+    font-style: italic;
+    margin-left: 60px;
+    color: gray;
+    font-size: 30px;
+}
+
+/* bar display */
+hr {
+    background-color: gray;
+    height: 1px;
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+/* all done display */
+.done {
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+/* final score */
+.finalScore {
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+/* enter initials label */
+label {
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+/* submit button */
+#submit {
+    margin: auto;
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+    border: none;
+}
+
+/* submit button on hover */
+#submit:hover {
+    background-color: violet;
+    cursor: pointer;
+    border: none;
+}
+
+/* high scores display */
+.list {
+    font-size: 30px;
+    padding-left: 28px;
+    padding-top: 50px;
+}
+
+/* back button */
+#back {
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+    border: none;
+}
+
+/* back button on hover */
+#back:hover {
+    background-color: violet;
+    cursor: pointer;
+    border: none;
+}
+
+/* clear button */
+#clear {
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    border: none;
+}
+
+/* clear button on hover */
+#clear:hover {
+    background-color: violet;
+    cursor: pointer;
+    border: none;
+}
